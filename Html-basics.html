@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Srazový formulář</title>
+</head>
+
+<body style="background-color:white; font-family:Arial, Helvetica, sans-serif;">
+
+    <h1 style="color:rgb(145, 0, 0)">Narozeninový sraz Masírů</h1>
+
+    <img src="https://zunews.com/wp-content/uploads/2021/04/Screen-Shot-2021-04-01-at-1.48.27-PM.png" alt="Helou deá"
+        width="400" height="200">
+    <br><br>
+
+    <form action="mailto:valery.cfc@seznam.cz" method="post" enctype="text/plain">
+        <table style="width:300px">
+            <tr>
+                <td><label for="jmeno">Jméno:</label></td>
+                <td><input type="text" id="jmeno" name="jmeno"></td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td><label for="den">Vyber termín:</label></td>
+                <td>
+                    <select name="den" id="den">
+                        <option value="patek">Pátek 17.6.</option>
+                        <option value="sobota">Sobota 18.6.</option>
+                        <option value="nemuzu">Nemůžu 😢</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <br>
+
+        <label for="koment">Přidej komentář:</label><br>
+        <textarea id="koment" name="koment" rows="3" cols="40"></textarea><br><br>
+        <input type="submit" value="Odeslat">
+    </form>
+
+
+</body>
+
+</html>
