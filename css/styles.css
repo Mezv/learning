@@ -1,0 +1,19 @@
+body {
+    background-color: #FCF8E8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #94B49F
+}
+
+h2 {
+    color: aquamarine;
+}
+
+hr {
+    border-color: #C6DCE4;
+    border-style: dotted none none none;
+    border-width: thick;
+    width: 3%;
+}
