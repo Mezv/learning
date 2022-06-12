@@ -7,6 +7,10 @@ h1 {
     color: #94B49F
 }
 
+h1:hover {
+    color: gold;
+}
+
 h2 {
     color: aquamarine;
 }
